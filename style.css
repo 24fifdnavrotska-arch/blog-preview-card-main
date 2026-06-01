@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f4d04e;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    background-color: white;
+
+    width: 380px;
+
+    padding: 24px;
+
+    border: 1px solid black;
+
+    border-radius: 20px;
+
+    box-shadow: 8px 8px 0 black;
+}
+
+.card-image {
+    width: 100%;   /* ВАЖЛИВО — це повертає картинку */
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.tag {
+    background-color: #f4d04e;
+
+    display: inline-block;
+
+    padding: 6px 12px;
+
+    font-weight: bold;
+
+    border-radius: 5px;
+
+    margin-bottom: 12px;
+}
+
+.date {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-bottom: 12px;
+}
+
+h2 {
+    margin-bottom: 12px;
+}
+
+h2:hover {
+    color: #f4d04e;
+    cursor: pointer;
+}
+
+.description {
+    color: #6b6b6b;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.author img {
+    width: 32px;
+    height: 32px;
+}
+
+.author span {
+    font-weight: bold;
+} 
